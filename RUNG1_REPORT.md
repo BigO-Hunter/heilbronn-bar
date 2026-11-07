@@ -2,7 +2,8 @@
 
 Branch `rung1-exact-k` (fast-forwarded onto `main`), work dir
 `~/bigo-campaign/heilbronn-bar/repo`.
-Base: `7587116` (the tree that filed 1/10²³⁷). Head: **`1f36158`**.
+Base: `7587116` (the tree that filed 1/10²³⁷).
+Head: **`6189ae9`** (`6189ae976a538f309232e73ad147c351dc2410f2`).
 
 ## Commits
 
@@ -11,9 +12,10 @@ Base: `7587116` (the tree that filed 1/10²³⁷). Head: **`1f36158`**.
 | `7587116` | base: the tree filed at the crude floor 1/(100000·10²³²) |
 | `a15fd64` | restate `KBound`/`Assembly`/`Submission` at the exact K literal |
 | `1f36158` | fix `hstep2` orientation in `Assembly.lean`; README refresh; `AxCheck.lean` |
+| `6189ae9` | reconcile `PROVENANCE.md` / `BRIDGE_EDITS.md` / Assembly docstring with the exact-K proof (they still advertised the deleted `heilbronnK_le`) |
 
-Both commits pushed: `rung1-exact-k` and `rung1-exact-k:main`
-(`7587116..1f36158`).
+All three pushed; `main` and `rung1-exact-k` both resolve to `6189ae9`
+(verified with `git ls-remote`).
 
 ## 1. K, computed exactly (Python `math.comb`, independent of Lean)
 

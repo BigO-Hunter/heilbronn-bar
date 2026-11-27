@@ -1,0 +1,25 @@
+name: Rung-1 cross-check
+
+on: [push, pull_request, workflow_dispatch]
+
+permissions:
+  contents: read
+
+jobs:
+  rung1:
+    name: Re-derive every rung-1 number from the pinned proof
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Check out the lane memory
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      # verify_rung1.py requires the Lean proof clone at ./repo (RUNG1_REPORT.md).
+      # The SHA below must stay equal to FINAL_SHA in verify_rung1.py.
+      - name: Fetch the pinned exact-K proof into ./repo
+        run: |
+          git init repo
+          git -C repo remote add origin https://github.com/BigO-Hunter/heilbronn-triangle-lean.git
+          git -C repo fetch --depth 1 origin 6189ae976a538f309232e73ad147c351dc2410f2
+          git -C repo checkout --detach FETCH_HEAD
+      - name: Cross-check every rung-1 number
+        run: python3 verify_rung1.py

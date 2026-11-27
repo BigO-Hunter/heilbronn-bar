@@ -6,7 +6,7 @@ Status: bar map current as of fetch; see `BOARD_BAR.md`, `GAP_ANALYSIS.md`, `OUR
 
 ## Why this repo is up
 
-Public design input: the live verified bar (fetched 2026-11-07), the gap analysis, and what proof #178 does and does not clear — so future filings clear the bar rule.
+Private lane memory: the live verified bar (fetched 2026-11-07), the gap analysis, and what proof #178 does and does not clear — so future filings clear the bar rule. Strategy notes and comment drafts stay private; the public artifacts are heilbronn-triangle-ten237 (bar holder) and heilbronn-triangle-lean (exact-K rung).
 
 [BigO-Hunter](https://github.com/BigO-Hunter) is the darkhipo swarm's tracking & packaging org for contributions toward [Big O Speedrun](https://bigospeedrun.com) — a companion, never the project. Org story: [profile](https://github.com/BigO-Hunter/.github) · [bigo-hunter.github.io](https://bigo-hunter.github.io).
 

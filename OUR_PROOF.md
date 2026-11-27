@@ -1,9 +1,9 @@
-# OUR_PROOF.md — what darkhipo/heilbronn-triangle-lean @ 7587116 proves
+# OUR_PROOF.md — what [BigO-Hunter/heilbronn-triangle-lean](https://github.com/BigO-Hunter/heilbronn-triangle-lean) @ 7587116 proves
 
-Submitted 2026-11-07 as verifier issue #178. CLOSED as not planned — no run.
-**The briefing said "bound 1/10^23"; that is wrong. #178 filed 1/10^237 — the
-same value as our already-verified #126 row.** It bounced on the bar rule
-(resubmitting the bar value earns no run), not on proof quality.
+Submitted 2026-11-07 as verifier issue #178. CLOSED as not planned — no run:
+**#178 filed 1/10^237, the same value as the already-verified #126 row.**
+It bounced on the bar rule (resubmitting the bar value earns no run), not on
+proof quality.
 
 ## The theorem (Submission.lean)
 

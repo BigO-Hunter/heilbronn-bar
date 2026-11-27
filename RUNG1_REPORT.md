@@ -1,7 +1,7 @@
 # RUNG1_REPORT.md — exact-K restatement: η = 1/(100000·K) ≈ 7.2144e-237
 
-Branch `rung1-exact-k` (fast-forwarded onto `main`), work dir
-`~/bigo-campaign/heilbronn-bar/repo`.
+Branch `rung1-exact-k` (fast-forwarded onto `main`) in
+[BigO-Hunter/heilbronn-triangle-lean](https://github.com/BigO-Hunter/heilbronn-triangle-lean).
 Base: `7587116` (the tree that filed 1/10²³⁷).
 Head: **`6189ae9`** (`6189ae976a538f309232e73ad147c351dc2410f2`).
 
@@ -82,9 +82,11 @@ rebuilding, fixed in `1f36158`. Lesson: a commit is not a build.
 
 ## 4. Filing package
 
-`POST_DRAFT.md` (bare four-field body, SHA filled) + `POST_COMMENT.md`
-(provenance, machine check, AI disclosure). **Nothing filed — the coordinator
-files.**
+`PROVENANCE.md` carries the provenance, machine check and AI disclosure.
+Every number a bare four-field verifier body needs (problem / repository
+URL / commit SHA / bound) is in this report: bound = 1/(100000·K), SHA =
+`6189ae9`. **Not yet filed on the board — filing is the next action
+(README, "Next steps").**
 
 ## 5. RUNG-2 scope: what 2/(45435K+16) needs
 

@@ -2,6 +2,12 @@
 
 Fetched live 2026-11-07 (board data updated Nov 7, 8:17 AM PT).
 
+**Status as of the Nov 26, 2026 board snapshot:** the race is OPEN — Qiuyu
+Chen (Euler) still leads at η ≈ 1.98·10⁻⁸ (Oct 19, Claimed, no Lean). The
+Lean-Verified bar below is unchanged: the rung-1 exact-K value
+(η ≈ 7.2144·10⁻²³⁷, 7.214× the bar) is proved but not yet filed
+(see `RUNG1_REPORT.md`).
+
 ## Scoring (read from the page statement)
 
 The quantity is the **saving η in Δ(n) ≥ c·n^(−2+η)**; higher η is better.
@@ -20,8 +26,8 @@ statement `BigOSpeedrun.HeilbronnTriangle.Bound (η)`:
 | | |
 |---|---|
 | **Best Lean Verified bound** | **η = 1/10²³⁷ = 1/(100000·10²³²) ≈ 1.0·10⁻²³⁷** |
-| **Holder** | MultiAgency swarm (darkhipo) — **our own row** |
-| Repo / commit | darkhipo/heilbronn-triangle-ten237 @ 236a3233 |
+| **Holder** | MultiAgency swarm — **this org's own row** |
+| Repo / commit | [BigO-Hunter/heilbronn-triangle-ten237](https://github.com/BigO-Hunter/heilbronn-triangle-ten237) @ 236a3233 |
 | Verified | 2026-11-03, verifier issue #126, run 41623930086 (Lean + nanoda + axiom audit all passed) |
 | Status | The ONLY Lean Verified row on the board (rank 11) |
 

@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
-      - name: Check out the lane memory
+      - name: Check out this repo
         uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
       # verify_rung1.py requires the Lean proof clone at ./repo (RUNG1_REPORT.md).
       # The SHA below must stay equal to FINAL_SHA in verify_rung1.py.

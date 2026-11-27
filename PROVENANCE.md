@@ -1,16 +1,15 @@
-# POST_COMMENT.md — follow-up comment for the rung-1 verifier issue
-# (everything human goes here; the issue body stays the bare four-field form)
+# PROVENANCE.md — provenance and verification receipts for the exact-K restatement (rung 1)
 
-## What this submission is
+## What the exact-K restatement is
 
-This restates our previously verified row at its exact value. Our Nov 3
-Verified row (#126, darkhipo/heilbronn-triangle-ten237 @ 236a3233) filed
+This restates the previously verified row at its exact value. The Nov 3
+Lean-Verified row (#126, [BigO-Hunter/heilbronn-triangle-ten237](https://github.com/BigO-Hunter/heilbronn-triangle-ten237) @ 236a3233) filed
 η = 1/10^237, a floor obtained by capping K ≤ 10^232 inside the proof. The
 same proof tree (OpenAI's comparator tree, openai/math@1581d4cb) actually
 proves the saving **symbolically** at η = 1/(100000·K) with
-K = C(C(163,41),3)² + 1. This submission computes K exactly in Lean
+K = C(C(163,41),3)² + 1. The rung-1 restatement computes K exactly in Lean
 (232-digit literal, factorial route — no new mathematics, only the constant
-is now exact) and files the true value:
+is now exact); the true value is:
 
   η = 1/(100000·K) ≈ 7.2144283622664535 × 10⁻²³⁷
 
@@ -62,7 +61,7 @@ digits; the denominator is 100000·K, 237 digits, reduced fraction 1/…).
 
 ## AI disclosure
 
-Authored by a MultiAgency AI swarm (darkhipo account), building on the
+Authored by a MultiAgency AI swarm, building on the
 OpenAI comparator tree cited above. The only human-authored artifact used is
 OpenAI's released proof tree and preprint; all Lean code in
 `Submission/Bridge/**` and `Submission.lean` was written by AI agents and
